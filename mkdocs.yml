@@ -1,4 +1,4 @@
-site_name: Intro to Machine Learning
+site_name: Intro to Data Engineering
 site_author: 'Vinay Krishna'
 site_url: 'https://vinkrish.github.io/DataEngineering/'
 theme:
@@ -7,12 +7,6 @@ theme:
 # Repository
 repo_name: 'vinkrish/DataEngineering'
 repo_url: 'https://github.com/vinkrish/DataEngineering'
-
-# Customization
-extra:
-  social:
-    - type: 'github'
-      link: 'https://github.com/vinkrish'
 
 extra_javascript:
   # Add MathJax support
