@@ -11,7 +11,7 @@
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
-        <link rel="canonical" href="https://vinkrish.github.io/DataEngineering/libraries/">
+        <link rel="canonical" href="https://vinkrish.github.io/DataEngineering/dap/">
       
       
         <meta name="author" content="Vinay Krishna">
@@ -40,7 +40,7 @@
     
     
       
-        <title>Libraries - Intro to Data Engineering</title>
+        <title>Data Analysis Process - Intro to Data Engineering</title>
       
     
     
@@ -98,6 +98,10 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
+      <a href="#question" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -119,7 +123,7 @@
               Intro to Data Engineering
             </span>
             <span class="md-header-nav__topic">
-              Libraries
+              Data Analysis Process
             </span>
           
         </div>
@@ -239,18 +243,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-    <a href="./" title="Libraries" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../libraries/" title="Libraries" class="md-nav__link">
       Libraries
     </a>
-    
   </li>
 
     
@@ -294,11 +291,73 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../dap/" title="Data Analysis Process" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Data Analysis Process
+      </label>
+    
+    <a href="./" title="Data Analysis Process" class="md-nav__link md-nav__link--active">
       Data Analysis Process
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#question" title="Question" class="md-nav__link">
+    Question
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wrangle" title="Wrangle" class="md-nav__link">
+    Wrangle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#explore" title="Explore" class="md-nav__link">
+    Explore
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusions" title="Conclusions" class="md-nav__link">
+    Conclusions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#communicate" title="Communicate" class="md-nav__link">
+    Communicate
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -333,17 +392,124 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#question" title="Question" class="md-nav__link">
+    Question
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wrangle" title="Wrangle" class="md-nav__link">
+    Wrangle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#explore" title="Explore" class="md-nav__link">
+    Explore
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusions" title="Conclusions" class="md-nav__link">
+    Conclusions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#communicate" title="Communicate" class="md-nav__link">
+    Communicate
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/vinkrish/DataEngineering/edit/master/docs/libraries.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/vinkrish/DataEngineering/edit/master/docs/dap.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>Libraries</h1>
+                  <h1>Data Analysis Process</h1>
                 
-                
+                <p>This process will help you understand, explore and use your data intelligently so that you make the most of the information you're given.</p>
+<p>Five steps:</p>
+<ul>
+<li>Question</li>
+<li>Wrangle</li>
+<li>Explore</li>
+<li>Draw conclusions</li>
+<li>Communicate.</li>
+</ul>
+<h3 id="question">Question</h3>
+<p>The data analysis process always starts with asking questions. Sometimes, you're already given a data set and glance over it to figure out good questions to ask. Other times, your questions come first, which will determine what kinds of data you'll gather later.</p>
+<p>In both cases, you should be thinking:</p>
+<ul>
+<li>what am I trying to find out?</li>
+<li>Is there a problem I'm trying to solve?</li>
+</ul>
+<p><em>Example:</em></p>
+<ul>
+<li>What are the characteristics of students who pass their projects?</li>
+<li>How can I better stock my store with products people want to buy?</li>
+</ul>
+<p>In the real world, you often deal with multiple sets of massive amounts of data, all in different forms. The right questions can really help you focus on relevant parts of your data and direct your analysis towards meaningful insights.</p>
+<h3 id="wrangle">Wrangle</h3>
+<p>Once you have your questions, you'll need to wrangle your data to help you answer them. By that, I mean making sure you have all the data you need in great quality.</p>
+<p>There are three parts to this step:</p>
+<ol>
+<li>You gather your data. If you are already given that data, then all you need to do is open it, like importing it into a Jupyter notebook. If you weren't provided data, you need think carefully about what data would be most helpful in answering your questions and then collect them from all the sources available.</li>
+<li>You assess your data to identify any problems in your data's quality or structure.</li>
+<li>You clean your data. This often involves modifying, replacing, or moving data to ensure that your data set is as high quality and well-structured as possible.</li>
+</ol>
+<p>This wrangling step is all about getting the data you need in a form that you can work with.</p>
+<h3 id="explore">Explore</h3>
+<p>Exploring involves finding patterns in your data, visualizing relationships in your data and just building intuition about what you're working with. After exploring, you can do things like remove outliers and create new and more descriptive features from existing data,
+also known as <strong>feature engineering</strong>.</p>
+<p>Many times modifying and engineer your data properly and even creatively can significantly increase the quality of your analysis. As you become more familiar with your data in this EDA step, you'll often revisit previous steps.</p>
+<p><em>Example</em>: you might discover new problems in your data and go back to wrangle them. Or you might discover exciting, unexpected patterns and decide to refine your questions.</p>
+<p>The data analysis process isn't always linear. This exploratory step in particular is very intertwined with the rest of the process. It's usually where you discover and learn the most about your data.</p>
+<h3 id="conclusions">Conclusions</h3>
+<p>After you've done your exploratory data analysis, you want to draw conclusions or even make predictions.</p>
+<p><em>Example</em>: Predicting which students will fail a project so you can reach out to those students Or predicting which products are most likely to sell so you can start your store appropriately.</p>
+<h3 id="communicate">Communicate</h3>
+<p>Finally, you need to communicate your results to others. This is one of the most important skills you can develop. Your analysis is only as valuable as your ability to communicate it. You often need to justify and convey meaning in the insights you found  Or if your end goal is to build a system, like a movie recommender or a news feed ranking algorithm, you usually share what you've built, explain how you reach design decisions and report how well it performs.</p>
+<p>You can communicate results in many ways:</p>
+<ul>
+<li>Reports</li>
+<li>Slide</li>
+<li>Decks</li>
+<li>Blog Posts</li>
+<li>Emails</li>
+<li>Presentations</li>
+</ul>
                 
                   
                 
@@ -364,7 +530,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href=".." title="About" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../data_warehouse/" title="Data Warehouse" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -373,19 +539,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                About
+                Data Warehouse
               </span>
             </div>
           </a>
         
         
-          <a href="../data_model/" title="Data Model" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../big_data/" title="Big Data" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Data Model
+                Big Data
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
