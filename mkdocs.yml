@@ -1,0 +1,33 @@
+site_name: Intro to Machine Learning
+site_author: 'Vinay Krishna'
+site_url: 'https://vinkrish.github.io/DataEngineering/'
+theme:
+  name: 'material'
+  
+# Repository
+repo_name: 'vinkrish/DataEngineering'
+repo_url: 'https://github.com/vinkrish/DataEngineering'
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/vinkrish'
+
+extra_javascript:
+  # Add MathJax support
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+
+markdown_extensions:
+  - mdx_math
+
+# Navigation
+nav:
+  - About: index.md
+  - Libraries: libraries.md
+  - Data Model: data_model.md
+  - Data Science: data_science.md
+  - Data Warehouse: data_warehouse.md
+  - Data Analysis Process: dap.md
+  - Big Data: big_data.md
+  - Terminology: terminology.md
