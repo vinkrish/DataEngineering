@@ -330,6 +330,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#task-boundaries" title="Task Boundaries" class="md-nav__link">
+    Task Boundaries
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benefits-of-task-boundaries" title="Benefits of Task Boundaries" class="md-nav__link">
+    Benefits of Task Boundaries
+  </a>
+  
+</li>
+      
       
       
       
@@ -530,6 +544,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#task-boundaries" title="Task Boundaries" class="md-nav__link">
+    Task Boundaries
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benefits-of-task-boundaries" title="Benefits of Task Boundaries" class="md-nav__link">
+    Benefits of Task Boundaries
+  </a>
+  
+</li>
+      
       
       
       
@@ -574,6 +602,22 @@
 <p>Keep in mind that Spark is not a data storage system, and there are a number of tools besides Spark that can be used to process and analyze large datasets.</p>
 <p>Sometimes it makes sense to use the power and simplicity of SQL on big data. For these cases, a new class of databases, know as NoSQL and NewSQL, have been developed.</p>
 <p>For example, you might hear about newer database storage systems like HBase or Cassandra. There are also distributed SQL engines like Impala and Presto. Many of these technologies use query syntax that you are likely already familiar with based on your experiences with Python and SQL.</p>
+<h3 id="task-boundaries">Task Boundaries</h3>
+<p>DAG tasks should be designed such that they are:</p>
+<ul>
+<li>Atomic and have a single purpose</li>
+<li>Maximize parallelism</li>
+<li>Make failure states obvious</li>
+</ul>
+<p>Every task in your dag should perform only one job.</p>
+<blockquote>
+<p>“Write programs that do one thing and do it well.” - Ken Thompson’s Unix Philosophy</p>
+</blockquote>
+<h3 id="benefits-of-task-boundaries">Benefits of Task Boundaries</h3>
+<ul>
+<li>Re-visitable: Task boundaries are useful for you if you revisit a pipeline you wrote after a 6 month absence. You'll have a much easier time understanding how it works and the lineage of the data if the boundaries between tasks are clear and well defined. This is true in the code itself, and within the Airflow UI.</li>
+<li>Tasks that do just one thing are often more easily parallelized. This parallelization can offer a significant speedup in the execution of our DAGs.</li>
+</ul>
                 
                   
                 
