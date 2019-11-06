@@ -11,7 +11,7 @@
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
-        <link rel="canonical" href="https://vinkrish.github.io/DataEngineering/data_science/">
+        <link rel="canonical" href="https://vinkrish.github.io/DataEngineering/data_quality/">
       
       
         <meta name="author" content="Vinay Krishna">
@@ -40,7 +40,7 @@
     
     
       
-        <title>Data Science - Intro to Data Engineering</title>
+        <title>Data Quality - Intro to Data Engineering</title>
       
     
     
@@ -98,7 +98,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#questions-data-science-answers" tabindex="1" class="md-skip">
+      <a href="#data-lineage" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -123,7 +123,7 @@
               Intro to Data Engineering
             </span>
             <span class="md-header-nav__topic">
-              Data Science
+              Data Quality
             </span>
           
         </div>
@@ -279,73 +279,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Data Science
-      </label>
-    
-    <a href="./" title="Data Science" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../data_science/" title="Data Science" class="md-nav__link">
       Data Science
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#questions-data-science-answers" title="Questions Data Science Answers" class="md-nav__link">
-    Questions Data Science Answers
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#is-data-ready-for-data-science" title="Is data ready for Data Science" class="md-nav__link">
-    Is data ready for Data Science
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#new-model-building-workflow" title="New model building workflow" class="md-nav__link">
-    New model building workflow
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#descriptive-statistics" title="Descriptive Statistics" class="md-nav__link">
-    Descriptive Statistics
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#inferential-statistics" title="Inferential Statistics" class="md-nav__link">
-    Inferential Statistics
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -377,11 +315,106 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../data_quality/" title="Data Quality" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Data Quality
+      </label>
+    
+    <a href="./" title="Data Quality" class="md-nav__link md-nav__link--active">
       Data Quality
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#data-lineage" title="Data Lineage" class="md-nav__link">
+    Data Lineage
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schedules" title="Schedules" class="md-nav__link">
+    Schedules
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#selecting-the-time-period" title="Selecting the time period" class="md-nav__link">
+    Selecting the time period
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-partitioning" title="Data Partitioning" class="md-nav__link">
+    Data Partitioning
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schedule-partitioning" title="Schedule partitioning" class="md-nav__link">
+    Schedule partitioning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logical-partitioning" title="Logical partitioning" class="md-nav__link">
+    Logical partitioning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#size-partitioning" title="Size Partitioning" class="md-nav__link">
+    Size Partitioning
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#examples-of-data-quality-requirements" title="Examples of Data Quality Requirements:" class="md-nav__link">
+    Examples of Data Quality Requirements:
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -440,36 +473,69 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#questions-data-science-answers" title="Questions Data Science Answers" class="md-nav__link">
-    Questions Data Science Answers
+  <a href="#data-lineage" title="Data Lineage" class="md-nav__link">
+    Data Lineage
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#is-data-ready-for-data-science" title="Is data ready for Data Science" class="md-nav__link">
-    Is data ready for Data Science
+  <a href="#schedules" title="Schedules" class="md-nav__link">
+    Schedules
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#selecting-the-time-period" title="Selecting the time period" class="md-nav__link">
+    Selecting the time period
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#new-model-building-workflow" title="New model building workflow" class="md-nav__link">
-    New model building workflow
+  <a href="#data-partitioning" title="Data Partitioning" class="md-nav__link">
+    Data Partitioning
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schedule-partitioning" title="Schedule partitioning" class="md-nav__link">
+    Schedule partitioning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logical-partitioning" title="Logical partitioning" class="md-nav__link">
+    Logical partitioning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#size-partitioning" title="Size Partitioning" class="md-nav__link">
+    Size Partitioning
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#descriptive-statistics" title="Descriptive Statistics" class="md-nav__link">
-    Descriptive Statistics
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#inferential-statistics" title="Inferential Statistics" class="md-nav__link">
-    Inferential Statistics
+  <a href="#examples-of-data-quality-requirements" title="Examples of Data Quality Requirements:" class="md-nav__link">
+    Examples of Data Quality Requirements:
   </a>
   
 </li>
@@ -490,60 +556,64 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/vinkrish/DataEngineering/edit/master/docs/data_science.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/vinkrish/DataEngineering/edit/master/docs/data_quality.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>Data Science</h1>
+                  <h1>Data Quality</h1>
                 
-                <h3 id="questions-data-science-answers">Questions Data Science Answers</h3>
+                <h3 id="data-lineage">Data Lineage</h3>
+<p>The data lineage of a dataset describes the discrete steps involved in the creation, movement, and calculation of that dataset.</p>
+<p>Why is Data Lineage important?</p>
 <ol>
-<li>Is it A or B? : Classfication algorithms<ul>
-<li>whether a coupon or discount bring more customer.</li>
-</ul>
+<li>
+<p>Instilling Confidence: Being able to describe the data lineage of a particular dataset or analysis will build confidence in data consumers (engineers, analysts, data scientists, etc.) that our data pipeline is creating meaningful results using the correct datasets. If the data lineage is unclear, its less likely that the data consumers will trust or use the data.</p>
 </li>
-<li>Is this weird? : Anomaly detection algorithms<ul>
-<li>credit card spending habit, flags unsual behaviour.</li>
-</ul>
+<li>
+<p>Defining Metrics: Another major benefit of surfacing data lineage is that it allows everyone in the organization to agree on the definition of how a particular metric is calculated.</p>
 </li>
-<li>How much? How many? : Regression algorithms<ul>
-<li>what will my nth quarter sales be.</li>
-</ul>
-</li>
-<li>How is this organized? : Clustering algorithms<ul>
-<li>which viewers like same type of movies, which printer model fails same way.</li>
-</ul>
-</li>
-<li>What should I do now? : Reinforcement Learning algorithms<ul>
-<li>self driving car, whether to brake or accelerate at yellow light.</li>
-</ul>
+<li>
+<p>Debugging: Data lineage helps data engineers track down the root of errors when they occur. If each step of the data movement and transformation process is well described, it's easy to find problems when they occur.</p>
 </li>
 </ol>
-<h3 id="is-data-ready-for-data-science">Is data ready for Data Science</h3>
+<p>In general, data lineage has important implications for a business. Each department or business unit's success is tied to data and to the flow of data between departments. For e.g., sales departments rely on data to make sales forecasts, while at the same time the finance department would need to track sales and revenue. Each of these departments and roles depend on data, and knowing where to find the data. Data flow and data lineage tools enable data engineers and architects to track the flow of this large web of data.</p>
+<h3 id="schedules">Schedules</h3>
+<p>Pipelines are often driven by schedules which determine what data should be analyzed and when.</p>
+<p>Why Schedules?</p>
 <ul>
-<li>Relevant?</li>
-<li>Connected?</li>
-<li>Accurate?</li>
-<li>Enough to work with?</li>
+<li>Pipeline schedules can reduce the amount of data that needs to be processed in a given run. It helps scope the job to only run the data for the time period since the data pipeline last ran. In a naive analysis, with no scope, we would analyze all of the data at all times.</li>
+<li>Using schedules to select only data relevant to the time period of the given pipeline execution can help improve the quality and accuracy of the analyses performed by our pipeline.</li>
+<li>Running pipelines on a schedule will decrease the time it takes the pipeline to run.</li>
+<li>An analysis of larger scope can leverage already-completed work. For. e.g., if the aggregates for all months prior to now have already been done by a scheduled job, then we only need to perform the aggregation for the current month and add it to the existing totals.</li>
 </ul>
-<h3 id="new-model-building-workflow">New model building workflow</h3>
+<h4 id="selecting-the-time-period">Selecting the time period</h4>
+<p>Determining the appropriate time period for a schedule is based on a number of factors which you need to consider as the pipeline designer.</p>
 <ol>
-<li>Gather data</li>
-<li>Feature extraction</li>
-<li>Pick ML framework</li>
-<li>Spin up AWS EC2 instance</li>
-<li>Setup machine</li>
-<li>Launch training job</li>
-<li>Analyze results</li>
+<li>
+<p><strong>What is the size of data, on average, for a time period?</strong> If an entire years worth of data is only a few kb or mb, then perhaps its fine to load the entire dataset. If an hours worth of data is hundreds of mb or even in the gbs then likely you will need to schedule your pipeline more frequently.</p>
+</li>
+<li>
+<p><strong>How frequently is data arriving, and how often does the analysis need to be performed?</strong> If our bikeshare company needs trip data every hour, that will be a driving factor in determining the schedule. Alternatively, if we have to load hundreds of thousands of tiny records, even if they don't add up to much in terms of mb or gb, the file access alone will slow down our analysis and we’ll likely want to run it more often.</p>
+</li>
+<li>
+<p><strong>What's the frequency on related datasets?</strong> A good rule of thumb is that the frequency of a pipeline’s schedule should be determined by the dataset in our pipeline which requires the most frequent analysis. This isn’t universally the case, but it's a good starting assumption. For example, if our trips data is updating every hour, but our bikeshare station table only updates once a quarter, we’ll probably want to run our trip analysis every hour, and not once a quarter.</p>
+</li>
 </ol>
-<p>When you have a standard computer, and you want to run multiple processes on it, the operating system is what deals with the scheduling - it determines which process gets access to which processor at a given point in time, which process gets access to which parts of memory, decides which processes should be frozen or die in cases where there is a shortage of resources.</p>
-<p>Use <strong>Docker</strong> to containerize model development environment, setup code and dependencies on each remote machine.</p>
-<p><strong>Kubernetes</strong> is an open-source container-orchestration system for automating application deployment, scaling and management.</p>
-<p>These tools allow for easy to use debugging and monitoring.</p>
-<p><strong>Borg</strong> is a Cluster OS Google uses for managing internal workloads. It manages thousands of machines with very good internal network connectivity. When you want to run a “service” - which is the equivalent of a “daemon” on a normal machine, something that should stay up all the time - you “run it on Borg” - that is, you tell the Borg cluster scheduler that you want, say, 200 copies of the binary that determines the service. The Borg scheduler identifies machines in the cluster that will have the spare capacity to run your service and sends a request to run the service to the node agents on these machines.</p>
-<h3 id="descriptive-statistics">Descriptive Statistics</h3>
-<p>Descriptive statistics summarize a given data set, which can be either a representation of the entire or a sample of a population. It is broken down into measure of central tendency (mean, median &amp; mode) and measure of variability (standard deviation, variance &amp; skewness).</p>
-<h3 id="inferential-statistics">Inferential Statistics</h3>
-<p>It is the process of using data analysis to deduce properties of an underlying probability distribution. Inferential statistical analysis infers properties of a population, for example by testing hypotheses and driving estimates. It is assumed that the observed data set is sampled from a larger population.</p>
+<h3 id="data-partitioning">Data Partitioning</h3>
+<h4 id="schedule-partitioning">Schedule partitioning</h4>
+<p>Not only are schedules great for reducing the amount of data our pipelines have to process, but they also help us guarantee that we can meet timing guarantees that our data consumers may need.</p>
+<h4 id="logical-partitioning">Logical partitioning</h4>
+<p>Conceptually related data can be partitioned into discrete segments and processed separately. This process of separating data based on its conceptual relationship is called logical partitioning. With logical partitioning, unrelated things belong in separate steps. Consider your dependencies and separate processing around those boundaries.</p>
+<p>Also worth mentioning, the data location is another form of logical partitioning. For example, if our data is stored in a key-value store like Amazon's S3 in a format such as: <code>s3://&lt;bucket&gt;/&lt;year&gt;/&lt;month&gt;/&lt;day&gt;</code> we could say that our date is logically partitioned by time.</p>
+<h4 id="size-partitioning">Size Partitioning</h4>
+<p>Size partitioning separates data for processing based on desired or required storage limits. This essentially sets the amount of data included in a data pipeline run. Size partitioning is critical to understand when working with large datasets, especially with Airflow.</p>
+<h3 id="examples-of-data-quality-requirements">Examples of Data Quality Requirements:</h3>
+<ul>
+<li>Data must be a certain size</li>
+<li>Data must be accurate to some margin of error</li>
+<li>Data must arrive within a given timeframe from the start of execution</li>
+<li>Pipelines must run on a particular schedule</li>
+<li>Data must not contain any sensitive information</li>
+</ul>
                 
                   
                 
@@ -564,7 +634,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../data_model/" title="Data Model" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../data_warehouse/" title="Data Warehouse" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -573,19 +643,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Data Model
+                Data Warehouse
               </span>
             </div>
           </a>
         
         
-          <a href="../data_warehouse/" title="Data Warehouse" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../dap/" title="Data Analysis Process" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Data Warehouse
+                Data Analysis Process
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

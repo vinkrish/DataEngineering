@@ -245,6 +245,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../info/" title="Info" class="md-nav__link">
+      Info
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
     <a href="../libraries/" title="Libraries" class="md-nav__link">
       Libraries
     </a>
@@ -283,6 +295,30 @@
   <li class="md-nav__item">
     <a href="../data_warehouse/" title="Data Warehouse" class="md-nav__link">
       Data Warehouse
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../data_lakes.md" title="Data Lakes" class="md-nav__link">
+      Data Lakes
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../data_quality/" title="Data Quality" class="md-nav__link">
+      Data Quality
     </a>
   </li>
 
@@ -338,6 +374,13 @@
           <li class="md-nav__item">
   <a href="#hadoop" title="Hadoop" class="md-nav__link">
     Hadoop
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yarn" title="YARN" class="md-nav__link">
+    YARN
   </a>
   
 </li>
@@ -530,6 +573,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#yarn" title="YARN" class="md-nav__link">
+    YARN
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#ambari" title="Ambari" class="md-nav__link">
     Ambari
   </a>
@@ -685,6 +735,8 @@
 <p><img alt="Big-Data-Stack" src="https://vinkrish-notes.s3-us-west-2.amazonaws.com/img/Big-Data-Stack.jpg" /></p>
 <h3 id="hadoop">Hadoop</h3>
 <p>Hadoop is an open source software platform for distributed storage and distributed processing of very large data sets on computer clusters built from commodity hardware.</p>
+<h3 id="yarn">YARN</h3>
+<p>YARN is a resource manager that schedules jobs across a cluster. The manager keeps track of what computer resources are available and then assigns those resources to specific tasks.</p>
 <h3 id="ambari">Ambari</h3>
 <p>Ambari is an Apache project supported by Hortonworks. It offers a web based GUI (Graphical User Interface) with wizard scripts for setting up clusters with most of the standard components. Ambari provisions, manages and monitors all the clusters of Hadoop jobs.</p>
 <h3 id="mapreduce">MapReduce</h3>
@@ -695,8 +747,11 @@
 <blockquote>
 <p>In computer science, <strong>marshalling</strong> is the process of transforming the memory representation of an object to a data format suitable for storage or transmission, and it is typically used when data must be moved between different parts of a computer program or from one program to another. Marshalling is similar to serialization and is used to communicate to remote objects with an object, in this case a serialized object.</p>
 </blockquote>
+<p>MapReduce is a programming technique for manipulating large data sets. "Hadoop MapReduce" is a specific implementation of this programming technique.</p>
+<p>The technique works by first dividing up a large dataset and distributing the data across a cluster. In the map step, each data is analyzed and converted into a (key, value) pair. Then these key-value pairs are shuffled across the cluster so that all keys are on the same machine. In the reduce step, the values with the same keys are combined together.</p>
 <h3 id="hdfs-hadoop-distributed-file-system">HDFS (Hadoop Distributed File System)</h3>
 <p>The HDFS, distributed under Apache license offers a basic framework for splitting up data collections between multiple nodes. In HDFS, the large files are broken into blocks, where several nodes hold all of the blocks from a file. The file system is designed in a way to mix fault tolerance with high throughput. The blocks of HDFS are loaded to maintain steady streaming. They are not usually cached to minimize latency.</p>
+<p>In other words it is a big data storage system that splits data into chunks and stores the chunks across a cluster of computers.</p>
 <h3 id="pig">Pig</h3>
 <p>When the data stored is visible to Hadoop, Apache Pig dives into the data and runs the code that is written in its own language, called Pig Latin. Pig Latin is filled with abstractions for handling the data. Pig comes with standard functions for common tasks like averaging data, working with dates, or to find differences between strings. Pig also allows the user to write languages of their own, called UDF (User Defined Function), when the standard functions fall short.</p>
 <h3 id="hive">Hive</h3>
