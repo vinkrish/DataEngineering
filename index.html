@@ -98,6 +98,10 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
+      <a href="#who-is-data-engineer" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -235,9 +239,70 @@
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        About
+      </label>
+    
     <a href="." title="About" class="md-nav__link md-nav__link--active">
       About
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#who-is-data-engineer" title="Who is Data Engineer?" class="md-nav__link">
+    Who is Data Engineer?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-engineering-roles" title="Data Engineering Roles" class="md-nav__link">
+    Data Engineering Roles
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#generalist" title="Generalist" class="md-nav__link">
+    Generalist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pipeline-centric" title="Pipeline-centric" class="md-nav__link">
+    Pipeline-centric
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#database-centric" title="Database-centric" class="md-nav__link">
+    Database-centric
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -250,18 +315,6 @@
   <li class="md-nav__item">
     <a href="info/" title="Info" class="md-nav__link">
       Info
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="libraries/" title="Libraries" class="md-nav__link">
-      Libraries
     </a>
   </li>
 
@@ -369,6 +422,69 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#who-is-data-engineer" title="Who is Data Engineer?" class="md-nav__link">
+    Who is Data Engineer?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-engineering-roles" title="Data Engineering Roles" class="md-nav__link">
+    Data Engineering Roles
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#generalist" title="Generalist" class="md-nav__link">
+    Generalist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pipeline-centric" title="Pipeline-centric" class="md-nav__link">
+    Pipeline-centric
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#database-centric" title="Database-centric" class="md-nav__link">
+    Database-centric
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -379,7 +495,37 @@
                 
                   <h1>About</h1>
                 
-                
+                <h3 id="who-is-data-engineer">Who is Data Engineer?</h3>
+<p>A data engineer transforms data into a useful format for analysis.</p>
+<p>A data engineer needs to be good at:</p>
+<ul>
+<li>Architecting distributed systems</li>
+<li>Creating reliable pipelines</li>
+<li>Combining data sources</li>
+<li>Architecting data stores</li>
+<li>Collaborating with data science teams and building the right solutions for them</li>
+</ul>
+<p>Roughly, the operations in a data pipeline consist of the following phases:</p>
+<ul>
+<li>Ingestion : this involves gathering in the needed data.</li>
+<li>Processing : this involves processing the data to get the end results you want.</li>
+<li>Storage : this involves storing the end results for fast retrieval.</li>
+<li>Access : you’ll need to enable a tool or user to access the end results of the pipeline.</li>
+</ul>
+<h3 id="data-engineering-roles">Data Engineering Roles</h3>
+<p>Although data engineers need to have the skills listed above, the day to day of a data engineer will vary depending on the type of company they work for.</p>
+<p>Broadly, you can classify data engineers into a few categories:</p>
+<ul>
+<li>Generalist</li>
+<li>Pipeline-centric</li>
+<li>Database-centric</li>
+</ul>
+<h4 id="generalist">Generalist</h4>
+<p>A generalist data engineer typically works on a small team. When a data engineer is the only data-focused person at a company, they usually end up having to do more end-to-end work. For example, a generalist data engineer may have to do everything from ingesting the data to processing it to doing the final analysis. This requires more data science skill than most data engineers have. However, it also requires less systems architecture knowledge — small teams and companies don’t have a ton of users, so engineering for scale isn’t as important.</p>
+<h4 id="pipeline-centric">Pipeline-centric</h4>
+<p>Pipeline-centric data engineers tend to be necessary in mid-sized companies that have complex data science needs. A pipeline-centric data engineer will work with teams of data scientists to transform data into a useful format for analysis. This entails in-depth knowledge of distributed systems and computer science.</p>
+<h4 id="database-centric">Database-centric</h4>
+<p>A database-centric data engineer is focused on setting up and populating analytics databases. This involves some work with pipelines, but more work with tuning databases for fast analysis and creating table schemas. This involves ETL work to get data into warehouses. This type of data engineer is usually found at larger companies with many data analysts that have their data distributed across databases.</p>
                 
                   
                 
