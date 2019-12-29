@@ -2,42 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://vinkrish.github.io/DataEngineering/</loc>
-     <lastmod>2019-11-03</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://vinkrish.github.io/DataEngineering/libraries/</loc>
-     <lastmod>2019-11-03</lastmod>
+     <loc>https://vinkrish.github.io/DataEngineering/info/</loc>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://vinkrish.github.io/DataEngineering/data_model/</loc>
-     <lastmod>2019-11-03</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://vinkrish.github.io/DataEngineering/data_science/</loc>
-     <lastmod>2019-11-03</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://vinkrish.github.io/DataEngineering/data_warehouse/</loc>
-     <lastmod>2019-11-03</lastmod>
+     <lastmod>2019-11-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://vinkrish.github.io/DataEngineering/data_quality/</loc>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://vinkrish.github.io/DataEngineering/dap/</loc>
-     <lastmod>2019-11-03</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://vinkrish.github.io/DataEngineering/big_data/</loc>
-     <lastmod>2019-11-03</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://vinkrish.github.io/DataEngineering/terminology/</loc>
-     <lastmod>2019-11-03</lastmod>
+     <lastmod>2019-11-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

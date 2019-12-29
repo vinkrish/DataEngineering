@@ -6,6 +6,10 @@
 
 Hadoop is an open source software platform for distributed storage and distributed processing of very large data sets on computer clusters built from commodity hardware.
 
+### YARN
+
+YARN is a resource manager that schedules jobs across a cluster. The manager keeps track of what computer resources are available and then assigns those resources to specific tasks.
+
 ### Ambari
 
 Ambari is an Apache project supported by Hortonworks. It offers a web based GUI (Graphical User Interface) with wizard scripts for setting up clusters with most of the standard components. Ambari provisions, manages and monitors all the clusters of Hadoop jobs.
@@ -22,9 +26,15 @@ The "MapReduce System" (also called "infrastructure" or "framework") orchestrate
 
 > In computer science, **marshalling** is the process of transforming the memory representation of an object to a data format suitable for storage or transmission, and it is typically used when data must be moved between different parts of a computer program or from one program to another. Marshalling is similar to serialization and is used to communicate to remote objects with an object, in this case a serialized object.
 
+MapReduce is a programming technique for manipulating large data sets. "Hadoop MapReduce" is a specific implementation of this programming technique.
+
+The technique works by first dividing up a large dataset and distributing the data across a cluster. In the map step, each data is analyzed and converted into a (key, value) pair. Then these key-value pairs are shuffled across the cluster so that all keys are on the same machine. In the reduce step, the values with the same keys are combined together.
+
 ### HDFS (Hadoop Distributed File System)
 
 The HDFS, distributed under Apache license offers a basic framework for splitting up data collections between multiple nodes. In HDFS, the large files are broken into blocks, where several nodes hold all of the blocks from a file. The file system is designed in a way to mix fault tolerance with high throughput. The blocks of HDFS are loaded to maintain steady streaming. They are not usually cached to minimize latency.
+
+In other words it is a big data storage system that splits data into chunks and stores the chunks across a cluster of computers.
 
 ### Pig
 

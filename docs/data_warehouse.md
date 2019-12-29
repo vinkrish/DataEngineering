@@ -1,6 +1,13 @@
-## What Is A Data Warehouse? 
+## Data Warehouse
 
 It is a system (including processes, technologies & data representations) that enables us to support analytical processes.
+
+- It represents an abstracted picture of the business organized by subject area.
+- It is highly transformed and structured.
+- Data is not loaded to the data warehouse until the use for it has been defined.
+- It generally follows an established methodology.
+
+When a data warehouse is developed, a significant amount of effort occurs during the initial stages to analyze data sources and understand business processes. Decisions are made regarding what data to include and exclude from the warehouse.
 
 ### A Business Perspective
 
@@ -41,6 +48,8 @@ A data warehouse is a system that retrieves and consolidates data periodically f
 - Quality Assured
 - Handles new questions well
 - Secure
+
+A data warehouse only includes data that is processed (structured) and only the data that is necessary to use for reporting or to answer specific business questions.
 
 ### Facts & Dimenstions
 

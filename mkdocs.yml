@@ -18,10 +18,12 @@ markdown_extensions:
 # Navigation
 nav:
   - About: index.md
-  - Libraries: libraries.md
+  - Info: info.md
   - Data Model: data_model.md
   - Data Science: data_science.md
   - Data Warehouse: data_warehouse.md
+  - Data Lakes: data_lakes.md
+  - Data Quality: data_quality.md
   - Data Analysis Process: dap.md
   - Big Data: big_data.md
   - Terminology: terminology.md
